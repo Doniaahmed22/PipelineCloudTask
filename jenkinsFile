@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Execute Script') {
             steps {
-                bat './bashFile.bat'
+                bat 'bashFile.bat'
             }
         }
     }
