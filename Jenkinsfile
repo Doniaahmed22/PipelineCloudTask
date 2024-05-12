@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Doniaahmed22/PipelineCloudTask'
+                git 'https://github.com/Doniaahmed22/PipelineCloudTask.git'
             }
         }
         stage('Execute Script') {
